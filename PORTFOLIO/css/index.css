@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 700px;
+    background-color: #171415;
+}
+
+header {
+    height: 70px;
+    background-color: #582D1F;
+    display: flex;
+    justify-content: space-around;
+    color: #B9B4B7;
+
+}
+
+hr {
+    border-color: #582D1F;
+    border-width: 0.2px;
+    opacity: .2;
+}
+
+a {
+    color: #B9B4B7;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #B9B4B7;
+}
+
+a:hover {
+    color: #757073;
+}
+
+a:active {
+    color: #B9B4B7;
+}
+
+.section {
+    width: 15.5%;
+    font-weight: bold; 
+    margin: auto 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #B9B4B7;
+
+    color: #B9B4B7;
+    padding: 0 50px;
+    
+ 
+}
+
+#picture {
+    width: 400px;
+    height: 530px;
+    padding: 30px;
+
+}
+
+#info {
+    width: 40%;
+    margin: auto 0;
+}
+
+#name {
+    font-size: 50px;
+}
+
+#course {
+    margin-top: -25px;
+    color: #D9A78B;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#quote {
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+
+#main {
+    margin-top: 35%;
+}
+
+#social {
+    display: flex;
+    justify-content: end;
+    margin-top: 200px;
+
+}
+
+.logo {
+    height: 50px;
+    padding: 0 10px;
+}
+
+
+
+footer {
+    color: #4e4d4e;
+    text-align: left;
+    margin: -10px 0 0 50px;
+    font-size: 12px;
+}
+
